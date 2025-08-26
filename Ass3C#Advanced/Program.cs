@@ -1,34 +1,62 @@
-﻿namespace Ass3C_Advanced
+﻿using System.Collections;
+
+namespace Ass3C_Advanced
 {
     internal class Program
-    {     
-           #region Q1
-      //public static int NonRepeatedCharcter (string str)
-      //{
-      // Dictionary<char, int> Count = new Dictionary<char, int>();
+    {
+        #region Q1
+        //public static int NonRepeatedCharcter (string str)
+        //{
+        // Dictionary<char, int> Count = new Dictionary<char, int>();
 
-      //   for(int i=0;i<str.Length;i++)
-      //   {
-      //          if (Count.ContainsKey(str[i]))
-      //              Count[str[i]]++;
-                
-      //          else
-      //              Count[str[i]] = 1;
-      //   }
-      //   for(int i=0;i<str.Length;i++)
-      //   {
-      //          if (Count[str[i]] == 1)
-      //          {
-      //              return i;
-      //          }
+        //   for(int i=0;i<str.Length;i++)
+        //   {
+        //          if (Count.ContainsKey(str[i]))
+        //              Count[str[i]]++;
 
-                   
-      //   }
+        //          else
+        //              Count[str[i]] = 1;
+        //   }
+        //   for(int i=0;i<str.Length;i++)
+        //   {
+        //          if (Count[str[i]] == 1)
+        //          {
+        //              return i;
+        //          }
 
 
-      //          return -1;
-      //}
+        //   }
 
+
+        //          return -1;
+        //}
+
+        #endregion
+
+        #region Q2
+        //public static void FrequencyOfNumbers (int[] arr)
+        //{
+
+        //    Hashtable hashtable = new Hashtable ();
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        if (hashtable.ContainsKey(arr[i]))
+        //            hashtable[arr[i]] = (int)hashtable[arr[i]] +1;
+        //        else 
+        //            hashtable[arr[i]] = 1;
+
+        //    }
+
+        //    foreach (DictionaryEntry item in hashtable)
+        //    {
+        //        Console.WriteLine($"{item.Key} : {item.Value}");
+        //    }
+
+
+
+        //}
+
+         
         #endregion
         static void Main(string[] args)
         {
@@ -37,6 +65,12 @@
             //string str = "Salmokka";
 
             //Console.WriteLine($"Index : {NonRepeatedCharcter(str)}");
+            #endregion
+
+            #region CallQ2
+            //int[] arr = {1,2,1,3,4,4,6,1,2,6,6}; 
+            //FrequencyOfNumbers(arr);
+           
             #endregion
 
         }
