@@ -79,6 +79,29 @@ namespace Ass3C_Advanced
 
         //}
         #endregion
+
+        #region Q4
+        //public static void GetKeyOfTargetValue(Hashtable hashtable)
+        //{
+        //    Console.WriteLine("Enter Target Value : ");
+        //    string? targetValue = Console.ReadLine();
+        //    bool found = false;
+        //    foreach ( DictionaryEntry item in hashtable)
+        //    {
+        //        if (item.Value.ToString() == targetValue)
+        //        {
+        //            Console.WriteLine(item.Key);
+        //            found = true;
+                    
+                   
+        //        }
+        //    }
+        //    if (!found)
+        //        Console.WriteLine("Key Not Found");
+
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
 
@@ -106,6 +129,17 @@ namespace Ass3C_Advanced
             //Console.WriteLine($"Key : {GretterKey(hashtable)}");
             #endregion
 
+            #region CallQ4
+            //Hashtable hashtable = new Hashtable()
+            //{
+            //    {"Key1","apple"},
+            //    {"Key2","banana"},
+            //    {"Key3","apple"},
+            //    {"Key4","apple"},
+            //    {"Key5","banana"}
+            //};
+            //GetKeyOfTargetValue(hashtable);
+            #endregion
         }
     }
 }
