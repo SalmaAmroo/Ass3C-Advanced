@@ -56,7 +56,28 @@ namespace Ass3C_Advanced
 
         //}
 
-         
+
+        #endregion
+
+        #region Q3
+        //public static object GretterKey ( Hashtable hashtable )
+        //{
+        //    object MaxKey = null;
+        //    int MaxValue = int.MinValue;
+
+        //    foreach (DictionaryEntry Values in hashtable)
+        //    {
+        //        if ((int)Values.Value > MaxValue)
+        //        {
+        //            MaxValue = (int)Values.Value;
+        //            MaxKey = Values.Key;
+        //        }    
+        //    }
+
+        //    return MaxKey;
+
+
+        //}
         #endregion
         static void Main(string[] args)
         {
@@ -70,7 +91,19 @@ namespace Ass3C_Advanced
             #region CallQ2
             //int[] arr = {1,2,1,3,4,4,6,1,2,6,6}; 
             //FrequencyOfNumbers(arr);
-           
+
+            #endregion
+
+            #region CallQ3
+            //Hashtable hashtable = new Hashtable()
+            //{
+            //    {"Salma",100 },
+            //    {"Ahmed",200 },
+            //    {"Mokha",50 },
+            //    {"Karim",250}
+            //}; 
+
+            //Console.WriteLine($"Key : {GretterKey(hashtable)}");
             #endregion
 
         }
