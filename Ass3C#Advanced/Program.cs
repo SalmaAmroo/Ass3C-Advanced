@@ -226,6 +226,26 @@ namespace Ass3C_Advanced
 
 
             #endregion
+
+            #region Q8
+            //List<int> DuplicatedInteger = new List<int>()
+            //{
+            //    1,1,2,3,3,4,5,3,2,6,7,8,5
+            //};
+            //Console.WriteLine("Duplicated Integer:");
+            //foreach (var num in DuplicatedInteger)
+            //{
+            //    Console.Write($"{num} ");
+            //}
+            //Console.WriteLine();
+            //HashSet<int> UniqueIntegers = new HashSet<int>(DuplicatedInteger);
+            //Console.WriteLine("UnDuplicated Integer:");
+            //foreach (var num in UniqueIntegers)
+            //{
+            //    Console.Write($"{num} ");
+            //}
+
+            #endregion
         }
     }
 }
