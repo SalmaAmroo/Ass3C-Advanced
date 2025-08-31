@@ -332,6 +332,26 @@ namespace Ass3C_Advanced
             //}
 
             #endregion
+
+            #region Q13
+            //SortedList<int,int> Numbers = new SortedList<int, int>()
+            //{
+            //{ 1, 2},
+            //{ 2, 5},
+            //{ 3, 6},
+            //{ 4, 3},
+            //{ 5, 10} 
+            //};
+            //Console.WriteLine("Even Value:");
+            //foreach (var pair in Numbers)
+            //{
+            //    if (pair.Value % 2 == 0)
+            //    {
+            //        Console.WriteLine($"Key: {pair.Key}, Value: {pair.Value}");
+            //    }
+            //}
+
+            #endregion 
         }
     }
 }
