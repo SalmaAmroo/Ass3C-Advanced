@@ -181,10 +181,10 @@ namespace Ass3C_Advanced
             //}
 
             #endregion
-            
+
             #region Q6
             //SortedDictionary<int , string > StudentNames = new SortedDictionary<int , string >();
-            
+
             //StudentNames.Add(101, "Salma");
             //StudentNames.Add(103, "Ahmed");
             //StudentNames.Add(102, "Karim");
@@ -207,6 +207,23 @@ namespace Ass3C_Advanced
             //    Console.WriteLine($"ID:102, Name : {StudentNames[102]} ");
             //else
             //    Console.WriteLine("Student Not Found");
+
+            #endregion
+
+            #region Q7
+            //Dictionary<int,string> Employees = new Dictionary<int,string>();
+            //Employees.Add(4, "Salma");
+            //Employees.Add(3, "Ahmed");
+            //Employees.Add(2, "Karim");
+            //Employees.Add(1, "Hoda");
+
+            //SortedList<int, string> SortedEmployees = new SortedList<int, string>(Employees);
+            //Console.WriteLine("Sorted Employees by ID:");
+            //foreach (var emp in SortedEmployees)
+            //{
+            //    Console.WriteLine($"ID:{emp.Key}, Name : {emp.Value} ");
+            //}
+
 
             #endregion
         }
