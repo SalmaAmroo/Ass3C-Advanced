@@ -310,6 +310,28 @@ namespace Ass3C_Advanced
 
 
             #endregion
+
+            #region Q12
+            //SortedSet<int> Numbers = new SortedSet<int>() { 5, 3, 8, 1, 2, 7 };
+            //Console.WriteLine("Enter Target Number:");
+            //int target = int.Parse(Console.ReadLine());
+            //List<int>GreeterNumbers = new List<int>();
+
+            //foreach (int num in Numbers)
+            //{ 
+            //    if (num > target)
+            //    {
+            //        GreeterNumbers.Add(num);
+            //    }
+
+            //}
+            //Console.WriteLine("Numbers Greater than Target:");
+            //foreach (var num in GreeterNumbers)
+            //{
+            //    Console.Write($"{num} ");
+            //}
+
+            #endregion
         }
     }
 }
