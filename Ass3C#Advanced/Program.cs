@@ -92,14 +92,41 @@ namespace Ass3C_Advanced
         //        {
         //            Console.WriteLine(item.Key);
         //            found = true;
-                    
-                   
+
+
         //        }
         //    }
         //    if (!found)
         //        Console.WriteLine("Key Not Found");
 
 
+        //}
+        #endregion
+
+        #region Q5
+        //public static List<List<string>> AnagramsCharcters(string[] strings)
+        //{
+        //    Dictionary<string , List<string>> map = new Dictionary<string, List<string>>();
+
+        //    foreach (string word in strings)
+        //    {
+        //        char[] Chars = word.ToCharArray();
+        //        Array.Sort(Chars);
+        //        string sortedWord = new string(Chars);
+
+        //        if (!map.ContainsKey(sortedWord)) 
+        //        {
+        //            map[sortedWord] = new List<string>();
+        //        }
+        //        map[sortedWord].Add(word);
+        //    }
+        //    List <List<string>> result = new List<List<string>>();
+
+        //    foreach(var values in map.Values)
+        //    {
+        //      result.Add(values);
+        //    }
+        //    return result;
         //}
         #endregion
         static void Main(string[] args)
@@ -139,6 +166,18 @@ namespace Ass3C_Advanced
             //    {"Key5","banana"}
             //};
             //GetKeyOfTargetValue(hashtable);
+            #endregion
+
+            #region CallQ5
+            //string[] words = 
+            //{
+            //    "eat","tea","tan","ate","nat","bat"
+            //};
+            //foreach (var group in AnagramsCharcters(words))
+            //{
+            //    Console.WriteLine("[" + string.Join(", ", group) + "]");
+            //}
+
             #endregion
         }
     }
