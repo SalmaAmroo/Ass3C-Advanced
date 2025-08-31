@@ -129,6 +129,8 @@ namespace Ass3C_Advanced
         //    return result;
         //}
         #endregion
+
+       
         static void Main(string[] args)
         {
 
@@ -177,6 +179,34 @@ namespace Ass3C_Advanced
             //{
             //    Console.WriteLine("[" + string.Join(", ", group) + "]");
             //}
+
+            #endregion
+            
+            #region Q6
+            //SortedDictionary<int , string > StudentNames = new SortedDictionary<int , string >();
+            
+            //StudentNames.Add(101, "Salma");
+            //StudentNames.Add(103, "Ahmed");
+            //StudentNames.Add(102, "Karim");
+            ////Adding a studend
+            //Console.WriteLine("Student Information:");
+            //foreach (var Names in StudentNames)
+            //{
+            //    Console.WriteLine($"ID:{Names.Key}, Name : {Names.Value} ");
+            //}
+            ////Removing a student
+            //Console.WriteLine("Student Information After Removing:");
+            //StudentNames.Remove(103);
+            //foreach (var Names in StudentNames)
+            //{
+            //    Console.WriteLine($"ID:{Names.Key}, Name : {Names.Value} ");
+            //}
+            ////Retrieving a student
+            //Console.WriteLine("Retrieving :");
+            //if (StudentNames.ContainsKey(102))
+            //    Console.WriteLine($"ID:102, Name : {StudentNames[102]} ");
+            //else
+            //    Console.WriteLine("Student Not Found");
 
             #endregion
         }
