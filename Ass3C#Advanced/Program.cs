@@ -284,6 +284,32 @@ namespace Ass3C_Advanced
             //    Console.Write($"{num} ");
             //}
             #endregion
+
+            #region Q11
+            //Dictionary<string, int> Strings = new Dictionary<string, int>()
+            //{ {"apple", 1},
+            //  {"animal", 2},
+            //  {"airport", 3},
+            //  {"banana", 4},
+            //  {"book", 5}
+            //};
+
+            //Console.WriteLine("Enter The Target Char");
+            //char targetChar = Console.ReadLine()[0];
+            //int count = 0;
+            //foreach (var words in Strings)
+            //{
+            //    if (words.Key.StartsWith(targetChar))
+            //    {
+            //        count++;
+            //    }
+            //}
+            //Console.WriteLine($"Number of strings starting with '{targetChar}': {count}");
+
+
+
+
+            #endregion
         }
     }
 }
