@@ -246,6 +246,44 @@ namespace Ass3C_Advanced
             //}
 
             #endregion
+
+            #region Q9
+            //Hashtable hashtable = new Hashtable()
+            //{
+            //    {"1","Salma"},
+            //    {"2","Karim"},
+            //    {"3","Hoda"},
+            //    {"4","Amr"}
+            //};
+            //Console.WriteLine("Original Hashtable:");
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    Console.WriteLine($"{item.Key} : {item.Value}");
+            //}
+            //Console.WriteLine("Swapped Hashtable:");
+            //Hashtable SwappedHashtable = new Hashtable();
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    SwappedHashtable[item.Value] = item.Key;
+            //}
+            //foreach (DictionaryEntry item in SwappedHashtable)
+            //{
+            //    Console.WriteLine($"{item.Key} : {item.Value}");
+            //}
+            #endregion
+
+            #region Q10
+            //HashSet<int> SetA = new HashSet<int>() { 1, 2, 3, 4, 5 };
+            //HashSet<int> SetB = new HashSet<int>() { 4, 5, 6, 7, 8 };
+
+            //HashSet<int> Union = new HashSet<int>(SetA);
+            //Union.UnionWith(SetB);
+            //Console.WriteLine("Union:");
+            //foreach (var num in Union)
+            //{
+            //    Console.Write($"{num} ");
+            //}
+            #endregion
         }
     }
 }
